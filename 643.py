@@ -24,7 +24,11 @@ def find_max_average(nums, k):
 def find_max_average_sliding_window(nums,k):
     window_sum = 0
     start = 0
-    max = 
+    max = float('-inf')
+    for end in len(nums):
+        window_sum += nums[end]
+        if (end - start + 1) == k:
+             
 k = 4
 nums = [1,12,-5,-6,50,3]
 answer = find_max_average(nums, k)
