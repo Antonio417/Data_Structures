@@ -3,11 +3,9 @@
 # Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. 
 # Any answer with a calculation error less than 10^-5 will be accepted.
 
-import numpy as np
-
 ## Naive Solutions
 def find_max_average(nums, k):
-    temp_max = np.NINF
+    temp_max = float('-inf')
     for i in range(len(nums)):
         naive_sum = 0
         for j in range(0,k):
@@ -18,10 +16,15 @@ def find_max_average(nums, k):
                 j = k
         if naive_sum != 0:
             temp_max = max(temp_max, (naive_sum/k))
-    if temp_max== np.NINF:
+    if temp_max== float('-inf'):
         return 0
     return temp_max
 
+## Sliding Window Solutions
+def find_max_average_sliding_window(nums,k):
+    window_sum = 0
+    start = 0
+    max = 
 k = 4
 nums = [1,12,-5,-6,50,3]
 answer = find_max_average(nums, k)
