@@ -17,7 +17,6 @@ def find_max_average(nums, k):
                 i = len(nums)
                 j = k
         if naive_sum != 0:
-            print(np.floor(naive_sum/k).astype(int))
             temp_max = max(temp_max, (naive_sum/k))
     if temp_max== np.NINF:
         return 0
