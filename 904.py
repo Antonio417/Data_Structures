@@ -9,5 +9,9 @@
 # 3. Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
 #    Given the integer array fruits, return the maximum number of fruits you can pick.
 
+def fruit_into_basket(trees):
+    
+
 trees = [1,2,3,2,2]
 answer = fruit_into_basket(trees)
+print(answer)
