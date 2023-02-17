@@ -8,3 +8,5 @@
 #    moving to the right. The picked fruits must fit in one of your baskets.
 # 3. Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
 #    Given the integer array fruits, return the maximum number of fruits you can pick.
+
+trees = [1,2,3,2,2]
