@@ -10,7 +10,7 @@
 #    Given the integer array fruits, return the maximum number of fruits you can pick.
 
 def fruit_into_basket(trees):
-    
+    tree_types_map = {}
 
 trees = [1,2,3,2,2]
 answer = fruit_into_basket(trees)
