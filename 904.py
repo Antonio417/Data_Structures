@@ -11,7 +11,12 @@
 
 def fruit_into_basket(trees):
     tree_types_map = {}
+    max = 0
+    start = 0
 
+    for i in range(len(trees)):
+        if len(tree_types_map) < 2 & ~tree_types_map[i]
+            
 trees = [1,2,3,2,2]
 answer = fruit_into_basket(trees)
 print(answer)
