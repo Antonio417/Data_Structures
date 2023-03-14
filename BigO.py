@@ -22,4 +22,6 @@ def print_items(n):
         for j in range(n):
             print(i,j)
 
-print_items(10)
+# print_items(10)
+
+# This is O(n^2) since we have 100 output with 10 input value
