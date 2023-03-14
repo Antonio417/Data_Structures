@@ -41,4 +41,8 @@ def print_items(n):
     for k in range(n):
         print(k)
 
-print_items(10)
+# print_items(10)
+
+# This is just O(1) and not O(3). O(1) is also referred as constant time
+def add_items(n):
+    return n+n+n
