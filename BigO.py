@@ -32,6 +32,14 @@ def print_items(n):
             for k in range(n):
                 print(i,j,k)
 
-print_items(10)
+# print_items(10)
 
 # This is still O(N^2), it does not matter if it is n^3 or n^4 we just simplify it as O(N^2)
+
+def print_items(n):
+    for i in range(n):
+        for j in range(n):
+            print(i,j)
+
+    for k in range(n):
+        print(k)
