@@ -46,3 +46,11 @@ def print_items(n):
 # This is just O(1) and not O(3). O(1) is also referred as constant time
 def add_items(n):
     return n+n+n
+
+# This is O(a+b) since the two for loops in the function have different parameters
+def print_items(a,b):
+    for i in range(a):
+        print(a)
+
+    for j in range(b):
+        print(b)
