@@ -19,3 +19,6 @@ print("num2 =", num2)
 
 print("\nnum1 points to:", id(num1))
 print("num2 points to:", id(num2))
+
+# Example for dictionary
+dict1 = {'value': 22}
