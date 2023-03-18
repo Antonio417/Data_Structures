@@ -1,4 +1,5 @@
 # Pointers in Python
+# Pointers are not used that much in python
 num1 = 11
 num2 = num1
 
