@@ -1,0 +1,1 @@
+# Chain like structure where each node points to another node
