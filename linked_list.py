@@ -4,3 +4,4 @@
 # Pop Linked List is O(n)
 # Prepend Linked List is O(1)
 # Pop first Linked List is O(1)
+# Insert, remove, lookup by index and lookup by value is O(n)
