@@ -28,6 +28,19 @@ class LinkedList:
             self.tail = new_node
             self.length += 1
         return True
+    
+    def pop(self):
+        if self.tail.next == None:
+            self.head = None
+            self.tail = None
+        else:
+            temp = self.head
+            pre = self.head
+            while(temp.next):
+                pre = temp
+                temp = temp.next
+            self.tail = pre
+            self.tail.next = None
 
 class Node:
     def __init__(self, value):
