@@ -34,10 +34,11 @@ class Node:
         self.value = value
         self.next = None
 
-my_linked_list = LinkedList(20)
-print(my_linked_list.head.value)
+temp_linked_list = LinkedList(20)
+# print(temp_linked_list.head.value)
 
 # Appending Linked List
-
+temp_linked_list.append(13)
+temp_linked_list.print_list()
 
 
