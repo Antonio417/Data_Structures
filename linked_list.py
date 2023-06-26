@@ -53,10 +53,17 @@ class Node:
         self.next = None
 
 temp_linked_list = LinkedList(20)
-# print(temp_linked_list.head.value)
+# temp_linked_list.print_list()
 
 # Appending Linked List
 temp_linked_list.append(13)
 temp_linked_list.print_list()
 
+# Pop Linked List
+temp_linked_list.pop()
+print("---------------POP--------------------")
+temp_linked_list.print_list()
+temp_linked_list.pop()
+print("---------------POP--------------------")
+print(temp_linked_list.pop())
 
