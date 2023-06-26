@@ -12,6 +12,12 @@ class LinkedList:
         self.tail = new_node
         self.length = 1
 
+    def print_list(self):
+        temp = self.head
+        while temp is not None:
+            print(temp.value)
+            temp = temp.next
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -19,3 +25,5 @@ class Node:
 
 my_linked_list = LinkedList(20)
 print(my_linked_list.head.value)
+
+
